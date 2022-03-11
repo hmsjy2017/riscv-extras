@@ -1,0 +1,36 @@
+Package: docker
+Version: 20.10.2-dev
+Architecture: riscv64
+Maintainer: Carlos de Paula <carlosedp@gmail.com>
+Depends: conntrack, ebtables, ethtool, iproute2, iptables, mount, socat, util-linux
+Filename: ./docker-v20.10.2-dev_riscv64.deb
+Size: 55254912
+MD5sum: f80911062d48f99e13b11d177a2adc11
+SHA1: e826fe4e9b70f9237e45e41c476934753e27d3ce
+SHA256: d57fe8238f3ebec64add832952c49fb0c6961f4cedf520ea0cf7976d967fd55b
+Description: Docker Engine and CLI
+
+Package: kubernetes
+Version: 1.16.0
+Architecture: riscv64
+Maintainer: Carlos de Paula <carlosedp@gmail.com>
+Depends: conntrack, ebtables, ethtool, iproute2, iptables, mount, socat, util-linux
+Filename: ./kubernetes_1.16.0_riscv64.deb
+Size: 100821584
+MD5sum: 3ca7f7de50157eb4687c7e190dad60e1
+SHA1: 586c997e43121de4f93651d033b82c2bca9a1b8c
+SHA256: d9989cf6a9146a3783627b14282badd70c98f262191a3757bcb971d1cbb0b104
+Description: Kubernetes package with kubectl, kubeadm and kubelet
+
+Package: podman
+Version: 1.8.1
+Architecture: riscv64
+Maintainer: Carlos de Paula <carlosedp@gmail.com>
+Depends: conntrack, ebtables, iproute2, iptables
+Filename: ./podman-1.8.1_riscv64.deb
+Size: 66339548
+MD5sum: 68dddea8d5ba6553a34f6e1de185def4
+SHA1: c34c9c2df98f31d9333904ed6f1dd1785bb8072e
+SHA256: 802d3cf2e7ac60df018bbcf81e868d0aa75a5b67c9f7e2e83a9b707feb51f967
+Description: Podman
+
